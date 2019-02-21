@@ -1,2 +1,2 @@
 # cege0043-jsReference
-PhoneGap Repositories (the sub modules)
+PhoneGap Repositories (the js files sub module)
