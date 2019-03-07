@@ -55,8 +55,8 @@ alert("Earthquake: " + closestQuake + " is distance " + minDistance + "away");
   function getDistanceFromPOI(position) {
  	var minDistance = 100000000000;
 	var closestPOI = "";
-	for(var i = 0; i < poijson.features.length; i++) {
-		var obj = poijson.features[i];
+	for(var i = 0; i < poi.features.length; i++) {
+		var obj = poi.features[i];
 		var distance = calculateDistance(position.coords.latitude,
 		position.coords.longitude,obj.geometry.coordinates[0], obj.geometry.coordinates[1], 'K');
 		if (distance < minDistance){
