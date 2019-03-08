@@ -20,8 +20,8 @@ function getDistance() {
 	alert('getting distance');
 	// getDistanceFromPoint is the function called once the distance has been found
 	//navigator.geolocation.getCurrentPosition(getDistanceFromPoint);
-	//navigator.geolocation.getCurrentPosition(getDistanceFromMultiplePoints);
-	navigator.geolocation.getCurrentPosition(getDistanceFromPOI);
+	navigator.geolocation.getCurrentPosition(getDistanceFromMultiplePoints);
+	//navigator.geolocation.getCurrentPosition(getDistanceFromPOI);
 }
 function getDistanceFromPoint(position) {
 	// find the coordinates of a point using the website

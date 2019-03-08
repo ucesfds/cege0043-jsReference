@@ -11,7 +11,7 @@ function trackAndPoly() {
 	trackLocation();
 	//getPoi();
 	//addPointLinePoly();
-	//getEarthquakes();
+	getEarthquakes();
 	//loadW3HTML();
 }
 
