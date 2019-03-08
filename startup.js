@@ -7,8 +7,9 @@ function startup() {
 }
 
 function trackAndPoly() {
-	getPoi();
+	
 	trackLocation();
+	//getPoi();
 	//addPointLinePoly();
 	//getEarthquakes();
 	//loadW3HTML();
